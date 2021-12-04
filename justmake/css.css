@@ -1,0 +1,160 @@
+:root{
+	--darkGray:#696969;
+}
+body{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Inter', sans-serif;
+}
+.navbar{
+	background-color: #6C63FF;
+	height: 85px;
+	display: flex;
+	padding: 0 10%;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar > h1{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.nav-menu{
+	display: flex;
+	gap:30px;
+}
+.hero-container{
+	display: flex;
+	height: 250px;
+	background-color: white;
+	padding: 0 10%;x
+}
+.hero-container > div{
+	width: 50%;
+	align-self: center;
+}
+.hero-container > img{
+	width: 50%;
+	height: 323px;
+	align-self: center;
+}
+.hero-container h1{
+	font-size: 60px;
+	width: 360px;
+	font-family: Inter, sans-serif;
+}
+.deskripsi-container{
+	background-color: white;
+	height: 243px;
+	margin: 40px 0;
+	padding: 0 10%;
+	display: flex;
+	font-family: Inter, sans-serif;
+}
+.deskriptoin-container > div {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+h2{
+	color: 	#3A3B3CN
+}
+p{
+	color:  #2F4F4F
+}
+.deskripsi-container > div > div{
+	width: 600px;
+	padding: 19px;
+}
+.deskripsi-container > img{
+	padding: 50px;
+	width: 10%;
+	object-fit: cover;
+}
+.galeri-content{
+	height: 400px;
+	background-color: red;
+	margin: 40px 0;
+	padding: 0 5%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap:30px;
+}
+.galeri-content .card{
+	background-color: green;
+	height: 100%;
+}
+.left-footer{
+	display: flex;
+	justify-content: space-between;
+}
+.content-card{
+	min-height: 400px;
+	background-color: white;
+	margin: 60px 0;
+	padding: 0 10%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap:30px;
+}
+.content-card .card{
+	background: white;
+	height: 100%;
+}
+.card{
+	box-shadow: 4px 4px 8px 4px rgba(1, 1, 1, 0.1);
+
+}
+.card > img{
+	object-fit: fill;
+	height: 240px;
+	width: 100%;
+}
+.card > card-body{
+	padding: 20px;
+}
+.card h3{
+	font-size: 20px;
+	margin: 0 15px 0 0;
+}
+.card p {
+	color: grey;
+	font-size: 16px;
+}
+.card > .footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.what-is{
+	max.height: 500px;
+	padding: 0 10%;
+	display: flex;
+
+}
+.what-is > div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 60%;
+	box-shadow: 2px 2px 8px 4px rgba(1, 1, 1, 0.1);
+}
+.what-is > div > div{
+	width: 400px;
+}
+.what-is > img{
+	width: 40%;
+}
+.footer-what-is {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.footer-end{
+	display: flex;
+}
