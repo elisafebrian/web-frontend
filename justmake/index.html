@@ -104,4 +104,11 @@
 	</div>
 </body>
 </html>
-<!-- ini elisa -->
+<?php
+if (isset($_POST['btn'])) {
+    $sql = mysqli_query($koneksi, "INSERT INTO data VALUES ('','$_POST[nama]','$_POST[email]','$_POST[jk]','$_POST[alamat]','$_POST[foto]','$_POST[password]')");
+    if ($sql) {
+        echo "<script>alert('Data Tersimpan.')</script>";
+    }
+}
+?>
